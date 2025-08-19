@@ -4,9 +4,11 @@
 This project explores the Superstore dataset to identify sales temporal and geographical patterns, loss drivers, and opportunities for improvement. Using Tableau, I created interactive dashboards that highlight trends across time, product categories, and geographies. The analysis is supported by data validation and calculated fields designed to surface actionable business insights.
 
 ## Main Insights
--Consumer-driven sales: Sales are primarily driven by the Consumer segment and strongly correlate with discount patterns. Targeted discount campaigns can help recover sales during low-activity periods.
--Losses from discounts: Several mid-performing states generate significant losses due to aggressive discounting. Chain-level intervention is required to enforce responsible discount policies.
--Unprofitable products: Specific sub-categories (e.g., Tables) contain products that are consistently unprofitable. These items should either be discounted more carefully or removed from the inventory.
+- Consumer-driven sales: Sales are primarily driven by the Consumer segment and strongly correlate with discount patterns. Targeted discount campaigns can help recover sales during low-activity periods.
+
+- Losses from discounts: Several mid-performing states generate significant losses due to aggressive discounting. Chain-level intervention is required to enforce responsible discount policies.
+
+- Unprofitable products: Specific sub-categories (e.g., Tables) contain products that are consistently unprofitable. These items should either be discounted more carefully or removed from the inventory.
 
 ## Data Cleaning
 The dataset was reviewed to ensure reliable analysis. All columns had correct data types, and no missing or invalid values were identified.
