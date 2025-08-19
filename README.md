@@ -15,10 +15,10 @@ The dataset was reviewed to ensure reliable analysis. All columns had correct da
 Checks for negative or zero values in Sales and Quantity returned none. Potential data-entry errors were investigated by recalculating the True Price (see below) and reviewing extreme values by product; no anomalies were found. The dataset was therefore used as provided, with additional calculated fields created for analysis.
 
 ## Calculated Fields
-True Price – product price before discount: [Sales] / (1 – [Discount])
-Product Price Tier – classifies products as:
-Commodity if True Price < $50
-Premium if True Price > $200
-Standard otherwise
-is_profitable – flags transactions as profitable if [Profit] > 0, else unprofitable
-State Focus – highlights highly profitable or unprofitable states where ABS([Profit]) exceeds a threshold defined by the Profit Threshold parameter
+- True Price – product price before discount: [Sales] / (1 – [Discount])
+- Product Price Tier – classifies products as:
+- Commodity if True Price < $50
+- Premium if True Price > $200
+- Standard otherwise
+- is_profitable – flags transactions as profitable if [Profit] > 0, else unprofitable
+- State Focus – highlights highly profitable or unprofitable states where ABS([Profit]) exceeds a threshold defined by the Profit Threshold parameter
